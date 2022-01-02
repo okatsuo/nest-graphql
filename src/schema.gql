@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type UserSchema {
+  id: String!
+  name: String!
+}
+
+type PostSchema {
+  id: String!
+  text: String!
+}
+
+type Query {
+  users: [UserSchema!]!
+  posts: [PostSchema!]!
+}
